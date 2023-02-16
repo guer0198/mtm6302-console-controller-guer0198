@@ -10,11 +10,12 @@ function setBackgroundColor(color) {
 }
 
 function setFontColor() {
-    document.getElementById("color").style.color = 'red';
+    const body = document.getElementById("color")
+    body.style.color = color
 }
 
-const $setTheme = document.getElementById('themes')
-    $setTheme.classList.remove('light')
+const setTheme = document.getElementById('themes')
+    setTheme.classList.remove('light')
 
 
 
